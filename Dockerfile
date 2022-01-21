@@ -2,7 +2,7 @@ FROM tomcat:latest
 
 LABEL maintainer="sarmadrauf"
 
-ADD ./target/LoginWebApp-1.war /usr/local/tomcat/webapps/
+ADD ./build/libs/gradle-example-all.jar /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
