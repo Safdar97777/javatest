@@ -1,6 +1,6 @@
 FROM tomcat:latest
 
-LABEL maintainer="sarmadrauf"
+LABEL maintainer="safdaraliraza"
 
 ADD ./build/libs/gradle-example-all.jar /usr/local/tomcat/webapps/
 
